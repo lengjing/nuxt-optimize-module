@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-google-optimize",
+  "name": "nuxt-optimize-module",
   "version": "0.5.4",
-  "description": "SSR friendly Google Optimize module for Nuxt.js",
+  "description": "SSR friendly Optimize module for Nuxt.js",
   "license": "MIT",
   "contributors": [
     {
@@ -15,7 +15,7 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/alibaba-aero/nuxt-google-optimize",
+  "repository": "https://github.com/lengjing/nuxt-optimize-module",
   "publishConfig": {
     "access": "public"
   },
