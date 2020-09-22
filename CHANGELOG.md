@@ -1,6 +1,18 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.5.5](https://github.com/lengjing/nuxt-optimize-module/compare/v0.5.4...v0.5.5) (2020-09-22)
+
+
+### Features
+
+* exclude bots to assign experiments ([#28](https://github.com/lengjing/nuxt-optimize-module/issues/28)) ([16d4a41](https://github.com/lengjing/nuxt-optimize-module/commit/16d4a41e6ba95e7b0e7962e77167a10223557a5f))
+
+
+### Bug Fixes
+
+* **deps:** update dependency cookie to ^0.4.0 ([1f0d88b](https://github.com/lengjing/nuxt-optimize-module/commit/1f0d88b7a06d33c8c89966626ea6822f0e6bb4b2))
 
 <a name="0.5.4"></a>
 ## [0.5.4](https://github.com/alibaba-aero/nuxt-google-optimize/compare/v0.5.3...v0.5.4) (2019-05-25)

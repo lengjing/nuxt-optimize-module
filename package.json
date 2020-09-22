@@ -1,6 +1,6 @@
 {
   "name": "nuxt-optimize-module",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "SSR friendly Optimize module for Nuxt.js",
   "license": "MIT",
   "contributors": [
