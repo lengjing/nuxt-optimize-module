@@ -1,13 +1,13 @@
-# nuxt-google-optimize
+# nuxt-optimize-module
 
-[![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-google-optimize/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-google-optimize)
-[![npm](https://img.shields.io/npm/dt/nuxt-google-optimize.svg?style=flat-square)](https://npmjs.com/package/nuxt-google-optimize)
-[![CircleCI](https://img.shields.io/circleci/project/github/alibaba-aero/nuxt-google-optimize.svg?style=flat-square)](https://circleci.com/gh/alibaba-aero/nuxt-google-optimize)
-[![Codecov](https://img.shields.io/codecov/c/github/alibaba-aero/nuxt-google-optimize.svg?style=flat-square)](https://codecov.io/gh/alibaba-aero/nuxt-google-optimize)
-[![Dependencies](https://david-dm.org/alibaba-aero/nuxt-google-optimize/status.svg?style=flat-square)](https://david-dm.org/alibaba-aero/nuxt-google-optimize)
+[![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-optimize-module/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-optimize-module)
+[![npm](https://img.shields.io/npm/dt/nuxt-optimize-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-optimize-module)
+[![CircleCI](https://img.shields.io/circleci/project/github/alibaba-aero/nuxt-optimize-module.svg?style=flat-square)](https://circleci.com/gh/alibaba-aero/nuxt-optimize-module)
+[![Codecov](https://img.shields.io/codecov/c/github/alibaba-aero/nuxt-optimize-module.svg?style=flat-square)](https://codecov.io/gh/alibaba-aero/nuxt-optimize-module)
+[![Dependencies](https://david-dm.org/alibaba-aero/nuxt-optimize-module/status.svg?style=flat-square)](https://david-dm.org/alibaba-aero/nuxt-optimize-module)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
-> SSR friendly Google Optimize module for Nuxt.js
+> SSR friendly Optimize module for Nuxt.js
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -22,31 +22,22 @@
 
 ## Setup
 
-- Add `nuxt-google-optimize` dependency using yarn or npm to your project
+- Add `nuxt-optimize-module` dependency using yarn or npm to your project
 ```sh
-yarn add nuxt-google-optimize
+yarn add nuxt-optimize-module
 ```
 OR
 ```sh
-npm install nuxt-google-optimize --save
+npm install nuxt-optimize-module --save
 ```
 
-- Add `nuxt-google-optimize` to `modules` section of `nuxt.config.js`
+- Add `nuxt-optimize-module` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
-    'nuxt-google-optimize',
-  ],
-
-  // Optional options
-  googleOptimize: {
-    // experimentsDir: '~/experiments',
-    // maxAge: 60 * 60 * 24 * 7 // 1 Week
-    // pushPlugin: true,
-    // excludeBots: true,
-    // botExpression: /(bot|spider|crawler)/i
-  }
+    'nuxt-optimize-module',
+  ]
 }
 ```
 
