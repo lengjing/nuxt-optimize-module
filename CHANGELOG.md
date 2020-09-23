@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.6](https://github.com/lengjing/nuxt-optimize-module/compare/v0.5.5...v0.5.6) (2020-09-23)
+
+
+### Features
+
+* support for several experiments ([a7cf143](https://github.com/lengjing/nuxt-optimize-module/commit/a7cf14334e6fa53eb416eaec7b5ce624886ed818))
+
 ### [0.5.5](https://github.com/lengjing/nuxt-optimize-module/compare/v0.5.4...v0.5.5) (2020-09-22)
 
 
